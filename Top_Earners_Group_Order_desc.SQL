@@ -1,0 +1,1 @@
+SELECT months*salary as earnings, count(months*salary) FROM employee GROUP BY earnings ORDER BY earnings DESC LIMIT 1
